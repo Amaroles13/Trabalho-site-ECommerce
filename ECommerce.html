@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400&family=DM+Serif+Display:ital@1&display=swap");
+    </style>
+    <meta charset="UTF-8" />
+    <title>Loja do Amaral</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <header>
+      <!-- Header -->
+      <img src="img/logo.png" alt="Logo do Portal" />
+      <h1>Life Kicks</h1>
+      <!-- <form action="search.php" method="GET">
+        <input type="text" name="search" placeholder="Pesquisar...">
+        <button type="submit">Buscar</button>
+      </form> -->
+      <!-- Header -->
+    </header>
+    <main>
+      <section class="carousel">
+        <!-- Carousel de imagem e barra de navegação -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Life Kicks</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Pagina inicial</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Lançamentos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Contatos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Instagram</a></li>
+                    <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="#">E-mail</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled"></a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Pesquisar
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <!-- ------------------------------- -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/coconut.avif" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/airforce.avif" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/produto6brasil.avif"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/produto7melo tint.avif"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="img/women.avif" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Carousel de imagem e barra de navegação -->
+      </section>
+      <!-- Grid de produtos -->
+      <h1 class="ultimos">Ultimos lançamentos</h1>
+      <section class="product-grid">
+        <div class="product-card">
+          <img src="img/women.avif" alt="Produto 1" />
+          <h3>Women's Air Max Pulse</h3>
+          <p>
+            Mantendo-o real, o Air Max Pulse inspira-se na cena musical de
+            Londres, trazendo um toque underground à icônica linha Air Max.
+          </p>
+          <span class="price">R$ 599,99</span>
+          <a href="#" class="buy-btn">Comprar</a>
+        </div>
+
+        <div class="product-card">
+          <img src="img/giannis.avif" alt="Produto 2" />
+          <h3>Zoom Freak 4 Letter Bro</h3>
+          <p>
+            Giannis é uma tempestade incessante de resistência e habilidade que
+            continua surpreendendo os oponentes. O design inovador de seu mais
+            recente tênis exclusivo ajuda a impulsioná-lo na quadra em um design
+            leve que se move com você.
+          </p>
+          <span class="price">R$ 1149,99</span>
+          <a href="#" class="buy-btn">Comprar</a>
+        </div>
+
+        <div class="product-card">
+          <img src="img/produto3.avif" alt="Produto 3" />
+          <h3>Air Jordan 4 Craft</h3>
+          <p>
+            Antigos e novos se familiarizam nesta versão artesanal do design
+            Tinker Hatfield de 1989. O couro com relevo em grade para um toque
+            premium, a camurça macia e as linhas de pontos extras na parte
+            superior trazem o toque artesanal.
+          </p>
+          <span class="price">R$ 799,99</span>
+          <a href="#" class="buy-btn">Comprar</a>
+        </div>
+
+        <div class="product-card">
+          <img src="img/skyline.avif" alt="Produto 4" />
+          <h3>Air Jordan 1 Retro skyline</h3>
+          <p>
+            Chame a atenção do amanhecer ao anoitecer no Air Jordan 1. O denim
+            premium na parte superior é tingido com um gradiente de claro a
+            escuro, mudando perfeitamente de alpenglow para crepúsculo. O design
+            assimétrico permite que você crie uma atmosfera própria.
+          </p>
+          <span class="price">R$ 1129,99</span>
+          <a href="#" class="buy-btn">Comprar</a>
+        </div>
+
+        <div class="product-card">
+          <img src="img/produto5luka77.avif" alt="Produto 5" />
+          <h3>Nome do Produto 5</h3>
+          <p>
+            Reconhecendo as raízes do Dunk como o tênis de alto escalão da
+            equipe universitária, o pack Be True To Your School busca inspiração
+            na campanha publicitária original. Então amarre e mostre esse
+            espírito do time do colégio com esta paleta de cores Apple Green e
+            Yellow Strike.
+          </p>
+          <span class="price">R$ 879,99</span>
+          <a href="#" class="buy-btn">Comprar</a>
+        </div>
+
+        <div class="product-card">
+          <img src="img/produto6brasil.avif" alt="Produto 6" />
+          <h3>Jordan Luka 1 Next Nature</h3>
+          <p>
+            Projetado para o número 77 e feito para todos os atletas que desejam
+            velocidade e eficiência, a estreia de Luka oferece o que há de
+            melhor. O primeiro tênis com espuma Fórmula 23 de comprimento total,
+            tem um ajuste ultra-suporte criado com o stepback em mente.
+          </p>
+          <span class="price">R$ 949,99</span>
+          <a href="#" class="buy-btn">Comprar</a>
+        </div>
+
+        <div class="product-card">
+          <img src="img/giannis.avif" alt="Produto 2" />
+          <h3>Zoom Freak 4 Letter Bro</h3>
+          <p>
+            Giannis é uma tempestade incessante de resistência e habilidade que
+            continua surpreendendo os oponentes. O design inovador de seu mais
+            recente tênis exclusivo ajuda a impulsioná-lo na quadra em um design
+            leve que se move com você.
+          </p>
+          <span class="price">R$ 1149,99</span>
+          <a href="#" class="buy-btn">Comprar</a>
+        </div>
+
+        <div class="product-card">
+          <img src="img/produto7melo tint.avif" alt="Produto 2" />
+          <h3>Air Jordan 2 Melon Tint</h3>
+          <p>
+            Artesanato italiano. Domínio global. Em 1987, o AJ2 preparou o
+            cenário para uma dinastia de calçados e sua transcendência da corte
+            à passarela. Tons de deserto e texturas ricas adicionam contraste ao
+            cabedal Sail, além de um detalhe do calcanhar colorido como toque
+            final.
+          </p>
+          <span class="price">R$ 1149,99</span>
+          <a href="#" class="buy-btn">Comprar</a>
+        </div>
+        <!-- Grid de produtos -->
+      </section>
+      <!-- Mais avaliados -->
+      <section class="most-reviewed">
+        <div class="most-reviewed">
+          <h2>Most Reviewed Items</h2>
+          <div class="product-grid">
+            <div class="product">
+              <img src="img/coconut.avif" alt="Coconut Milk and Rattan" />
+              <h3>Coconut Milk and Rattan</h3>
+              <p>4.7 (245) Avaliações</p>
+              <p>R$ 799,90</p>
+              <button>Comprar</button>
+            </div>
+            <div class="product">
+              <img src="img/kd15.avif" alt="KD15 Olympics Medal" />
+              <h3>KD15 Olympics Medal</h3>
+              <p>4.6 (182) Avaliações</p>
+              <p>R$ 1299,90</p>
+              <button>Comprar</button>
+            </div>
+            <div class="product">
+              <img src="img/airforce.avif" alt="Tênis Asics Gel Nimbus" />
+              <h3>Air Force 1 Retro White</h3>
+              <p>4.9 (312) Avaliações</p>
+              <p>R$ 799,99</p>
+              <button>Comprar</button>
+            </div>
+            <div class="product">
+              <img
+                src="img/produto7melo tint.avif"
+                alt="Coconut Milk and Rattan"
+              />
+              <h3>Air Jordan 2 Melon Tint</h3>
+              <p>4.8 (275) Avaliações</p>
+              <p>R$ 1149,99</p>
+              <button>Comprar</button>
+            </div>
+            <div class="product">
+              <img src="img/produto3.avif" alt="Coconut Milk and Rattan" />
+              <h3>Air Jordan 4 Craft</h3>
+              <p>4.6 (145) Avaliações</p>
+              <p>R$ 799,90</p>
+              <button>Comprar</button>
+            </div>
+            <div class="product">
+              <img
+                src="img/produto6brasil.avif"
+                alt="Coconut Milk and Rattan"
+              />
+              <h3>Jordan Luka 1 Next Nature</h3>
+              <p>4.5 (185) Avaliações</p>
+              <p>R$ 949,90</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+        </div>
+        <!-- Mais avaliados -->
+      </section>
+      <section class="newsletter">
+        <div class="newsletter-panel">
+          <h2>Newsletter</h2>
+          <p>
+            Inscreva-se em nossa newsletter para receber nossas últimas
+            novidades e promoções exclusivas:
+          </p>
+          <form>
+            <label for="email">E-mail:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Digite seu e-mail"
+            />
+            <button type="submit">Inscreva-se</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul class="menu">
+        <li><a href="#">Pagamento</a></li>
+        <li><a href="#">Redes Sociais</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
